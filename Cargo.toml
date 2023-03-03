@@ -1,0 +1,11 @@
+[package]
+name = "rust-simple-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+time = "0.3.17"
+actix-web = "4.3.0"
+env_logger = "0.10.0"
+serde = { version = "1.0.152", features = ["derive"] }
+chrono = "0.4.23"
